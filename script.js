@@ -3,10 +3,10 @@ function menuToggle() {
     document.querySelector(".nav-menu").classList.toggle("show-hide");
     count++;
     if (count % 2 != 0) {
-        document.querySelector(".icon img").src = "/svg/close menu.svg";
+        document.querySelector(".icon img").src = "./svg/close menu.svg";
     }
     else {
-        document.querySelector(".icon img").src = "/svg/menu icon.svg";
+        document.querySelector(".icon img").src = "./svg/menu icon.svg";
     }
 }
 
