@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components of HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/css/components.css"> -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- ! nav part  -->
+    <nav>
+        <div class="container nav-container">
+            <div class="nav-logo-icons">
+                <div class="nav-logo">
+                    <img src="./svg/logo 1.svg" alt="">
+                    <h2 class="heading SemiBold M">Personal</h2>
+                </div>
+
+                <div class="icon" onclick="menuToggle()">
+                    <img src="./svg/menu icon.svg" alt="">
+
+                </div>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="menu">
+                    <li><a onclick="menuToggle()" href="#about-me">About me</a></li>
+                    <li><a onclick="menuToggle()" href="#my-skills">Skills</a></li>
+                    <li><a onclick="menuToggle()" href="#my-projects">Project</a></li>
+                    <li><a onclick="menuToggle()" href="#contact-us">Contact me</a></li>
+                </ul>
+
+                <a style="display: inline-block;" class="text-icon-button">
+                    <span>Resume <img src="./svg/download-light.svg" alt=""></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ! jump to top button  -->
+
+    <div class="jump-to-top">
+        <button onclick="topFunction()" id="jump-to-top-btn" title="Go to top">▲</button>
+    </div>
+    <!-- !  me -->
+
+    <div class="me ">
+        <div class="me-continer container">
+            <div class="left">
+                <!--  -->
+                <h1 class="Heading">
+                    <span class="Regular">Hello I'am</span>
+                    <span class="SemiBold">Sarder Shehab Fromted</span>
+                    <span class="Outlined">Devloper</span>
+                    <span class="Regular">Based In</span>
+                    <span class="SemiBold">Bangladesh</span>
+                </h1>
+                <p>I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to
+                    specimen book.</p>
+            </div>
+            <div class="right">
+                <img src="./svg/Banner about-me.svg" alt="">
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="me-social-links">
+                <a class="icon-button" href="https://www.facebook.com/sdishehab97" target="_blank">
+                    <img src="./svg/facebook.png" alt="">
+                </a>
+                <a class="icon-button" href="https://www.reddit.com/u/sdis_97/s/8rizLDClpe" target="_blank">
+                    <img src="./svg/raddit.svg" alt="">
+                </a>
+                <a class="icon-button" href="https://x.com/sdis97" target="_blank">
+                    <img src="./svg/twitter.svg" alt="">
+                </a>
+                <a class="icon-button" href="https://discord.com/" target="_blank">
+                    <img src="./svg/discord.svg" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ! My skills -->
+    <div class="my-skills" id="my-skills">
+        <div class="container my-skills-contsiner">
+            <h2 class="Heading" style="text-align: center; padding-top: 5rem; padding-bottom: 5rem;">
+                <span class="Regular">My</span>
+                <span class="SemiBold">Skills</span>
+            </h2>
+
+            <div class="my-skills-grid">
+
+                <div class="my-skills-grid-card">
+                    <div class="my-skills-grid-card-center">
+                        <img src="./svg/skill/icon-git.svg" alt="">
+                        <h3>Git</h3>
+                    </div>
+                </div>
+                <div class="my-skills-grid-card">
+                    <div class="my-skills-grid-card-center">
+                        <img src="./svg/skill/icon-javscript.svg" alt="">
+                        <h3>javascript</h3>
+                    </div>
+                </div>
+                <div class="my-skills-grid-card">
+                    <div class="my-skills-grid-card-center">
+                        <img src="./svg/skill/icon-sass.svg" alt="">
+                        <h3>Sass/scss</h3>
+                    </div>
+                </div>
+                <div class="my-skills-grid-card">
+                    <div class="my-skills-grid-card-center">
+                        <img src="./svg/skill/icon-nest.svg" alt="">
+                        <h3>Nest.Js</h3>
+                    </div>
+                </div>
+                <div class="my-skills-grid-card">
+                    <div class="my-skills-grid-card-center">
+                        <img src="./svg/skill/icon-storybook.svg" alt="">
+                        <h3>Storybook</h3>
+                    </div>
+                </div>
+
+                <div class="my-skills-grid-card">
+                    <div class="my-skills-grid-card-center">
+                        <img src="./svg/skill/icon-javscript.svg" alt="">
+                        <h3>javascript</h3>
+                    </div>
+                </div>
+                <div class="my-skills-grid-card">
+                    <div class="my-skills-grid-card-center">
+                        <img src="./svg/skill/icon-git.svg" alt="">
+                        <h3>Git</h3>
+                    </div>
+                </div>
+                <div class="my-skills-grid-card">
+                    <div class="my-skills-grid-card-center">
+                        <img src="./svg/skill/icon-socket.svg" alt="">
+                        <h3>Socket.io</h3>
+                    </div>
+                </div>
+                <div class="my-skills-grid-card">
+                    <div class="my-skills-grid-card-center">
+                        <img src="./svg/skill/icon-storybook.svg" alt="">
+                        <h3>Storybook</h3>
+                    </div>
+                </div>
+                <div class="my-skills-grid-card">
+                    <div class="my-skills-grid-card-center">
+                        <img src="./svg/skill/icon-nest.svg" alt="">
+                        <h3>Nest.Js</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! My Experience -->
+    <div class="my-experience" id="my-experience">
+        <div class="container my-experience-container">
+            <h2 class="Heading" style="text-align: center; padding-top: 5rem; padding-bottom: 5rem;">
+                <span class="Regular">My</span>
+                <span class="SemiBold">Experience</span>
+            </h2>
+
+            <!-- my-experience-div -->
+            <div class="my-experience-div">
+
+                <!-- google -->
+                <div class="experience-list">
+                    <div class="experience-list-top">
+                        <div class="left">
+                            <img src="./svg/experience/google.svg" alt="">
+                            <h3>Lead Software Engineer at Google</h3>
+                        </div>
+                        <div class="right">
+                            <span>Nov 2019 - Present</span>
+                        </div>
+                    </div>
+                    <div class="experience-list-body">
+                        <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative
+                            solutions for Google's core
+                            search algorithms. Collaborating with a dynamic team of engineers, I contributed to the
+                            enhancement of search accuracy
+                            and efficiency, optimizing user experiences for millions of users worldwide.</p>
+                    </div>
+                </div>
+                <!-- youtube -->
+                <div class="experience-list">
+                    <div class="experience-list-top">
+                        <div class="left">
+                            <img src="./svg/experience/youtube.svg" alt="">
+                            <h3>Software Engineer at Youtube</h3>
+                        </div>
+                        <div class="right">
+                            <span>Jan 2017 - Oct 2019</span>
+                        </div>
+                    </div>
+                    <div class="experience-list-body">
+                        <p>At Youtube, I served as a Software Engineer, focusing on the design and implementation of
+                            backend systems for the social
+                            media giant's dynamic platform. Working on projects that involved large-scale data
+                            processing and user engagement
+                            features, I leveraged my expertise to ensure seamless functionality and scalability.</p>
+                    </div>
+                </div>
+                <!-- apple -->
+                <div class="experience-list">
+                    <div class="experience-list-top">
+                        <div class="left">
+                            <img src="./svg/experience/apple.svg" alt="">
+                            <h3>Junior Software Engineer at Apple</h3>
+                        </div>
+                        <div class="right">
+                            <span>Jan 2016 - Dec 2017</span>
+                        </div>
+                    </div>
+                    <div class="experience-list-body">
+                        <p>During my tenure at Apple, I held the role of Software Architect, where I played a key role
+                            in shaping the architecture
+                            of mission-critical software projects. Responsible for designing scalable and efficient
+                            systems, I provided technical
+                            leadership to a cross-functional team.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ! details about me  -->
+    <div class="about-me" id="about-me">
+
+        <div class="container about-me-container">
+            <div class="left">
+                <img src="./svg/about me.svg" alt="">
+            </div>
+            <div class="right">
+                <h2 class="Heading heading-about-me">
+                    <span class="Regular">About</span>
+                    <span class="SemiBold">Me</span>
+                </h2>
+
+                <p id="p">
+                    I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js &
+                    Node.js). I am very
+                    enthusiastic about bringing the technical and visual aspects of digital products to life. User
+                    experience, pixel perfect
+                    design, and writing clear, readable, highly performant code matters to me.
+                </p>
+                <p>
+                    I began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as
+                    a developer, taking
+                    on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7
+                    years after starting
+                    my web development journey, I'm building cutting-edge web applications using modern technologies
+                    such as Next.js,
+                    TypeScript, Nestjs, Tailwindcss, Supabase and much more.
+                </p>
+                <p>
+                    When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie
+                    hacker, witnessing the
+                    journey of early startups or enjoying some free time. You can follow me on Twitter where I share
+                    tech-related bites and
+                    build in public, or you can follow me on GitHub.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! my projects  -->
+    <div class="my-projects" id="my-projects">
+        <div class="container my-projects-container">
+            <h2 class="Heading" style="text-align: center; padding-top: 5rem; padding-bottom: 5rem;">
+                <span class="Regular">My</span>
+                <span class="SemiBold">Projects</span>
+            </h2>
+
+            <div class="my-projects-flex">
+
+                <!-- card  -->
+                <div class="my-project-cards">
+                    <div class="left">
+                        <img src="./svg/projects/image 771.png" alt="">
+                    </div>
+                    <div class="right">
+                        <h1 class="Heading SemiBold">01</h1>
+                        <h2>Crypto Screener Application</h2>
+                        <p>
+                            I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type and scrambled it to
+                            specimen book.
+                        </p>
+                        <img src="./svg/projects/Read More.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- card  -->
+                <div class="my-project-cards">
+                    <div class="left">
+                        <img src="./svg/projects/image 770.png" alt="">
+                    </div>
+                    <div class="right">
+                        <h1 class="Heading SemiBold">02</h1>
+                        <h2>Euphoria - Ecommerce (Apparels) Website Template</h2>
+                        <p>
+                            I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type and scrambled it to
+                            specimen book.
+                            when an unknown printer took a galley of type and scrambled it to specimen book.
+                        </p>
+                        <img src="./svg/projects/Read More.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- card  -->
+                <div class="my-project-cards">
+                    <div class="left">
+                        <img src="./svg/projects/image 770(1).png" alt="">
+                    </div>
+                    <div class="right">
+                        <h1 class="Heading SemiBold">03</h1>
+                        <h2>Blog Website Template</h2>
+                        <p>
+                            I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type and scrambled it to
+                            specimen book.
+                        </p>
+                        <img src="./svg/projects/Read More.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! my Testimonial  -->
+    <div class="my-testimonial" id="my-testimonial">
+        <div class="container my-testimonial-container">
+            <h2 class="Heading" style="text-align: center; padding-top: 5rem; padding-bottom: 5rem;">
+                <span class="Regular">My</span>
+                <span class="SemiBold">Testimonial</span>
+            </h2>
+
+            <div class="my-testimonial-flex">
+                <!-- card  -->
+                <div class="my-testimonial-card">
+                    <img src="./svg/testimonial/Frame 18.png" alt="">
+                    <p>
+                        I recently had to jump on 10+ different calls across eight different countries to find the right
+                        owner.
+                    </p>
+                    <div class="div-hr-testimonial"></div>
+                    <h4>Evren Shah</h4>
+                    <p class="SemiBold">Designer</p>
+                </div>
+                <!-- card  -->
+                <div class="my-testimonial-card">
+                    <img src="./svg/testimonial/Frame 18(1).png" alt="">
+                    <p>
+                        I recently had to jump on 10+ different calls across eight different countries to find the right
+                        owner.
+                    </p>
+                    <div class="div-hr-testimonial"></div>
+                    <h4>Evren Shah</h4>
+                    <p class="SemiBold">Designer</p>
+                </div>
+                <!-- card  -->
+                <div class="my-testimonial-card">
+                    <img src="./svg/testimonial/Frame 18.png" alt="">
+                    <p>
+                        I recently had to jump on 10+ different calls across eight different countries to find the right
+                        owner.
+                    </p>
+                    <div class="div-hr-testimonial"></div>
+                    <h4>Evren Shah</h4>
+                    <p class="SemiBold">Designer</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- !contact us -->
+    <div class="contact-us" id="contact-us">
+        <div class="container contact-us-flex">
+            <form class="left">
+                <input type="text" placeholder="Your name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="url" placeholder="Your websitr (if exists)">
+                <textarea placeholder="How can i help?*" required></textarea>
+                <br>
+                <div class="buttons">
+                    <button class="contuct-btn text-button" type="submit">Get In Touch</button>
+                    <div class="contact-btn-group-buttons">
+                        <a class="contuct-btn icon-button" href="https://www.facebook.com/sdishehab97" target="_blank">
+                            <img src="./svg/facebook.png" alt="">
+                        </a>
+                        <a class="contuct-btn icon-button" href="https://www.reddit.com/u/sdis_97/s/8rizLDClpe" target="_blank">
+                            <img src="./svg/raddit.svg" alt="">
+                        </a>
+                        <a class="contuct-btn icon-button" href="https://x.com/home" target="_blank">
+                            <img src="./svg/twitter.svg" alt="">
+                        </a>
+                        <a class="contuct-btn icon-button" href="https://discord.com/" target="_blank">
+                            <img src="./svg/discord.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </form>
+            <div class="right">
+                <h1 class="Heading">
+                    <span class="SemiBold">Let's </span>
+                    <span class="Outlined"> Talk</span>
+                    <span class="SemiBold"> for <br>Something special</span>
+                </h1>
+
+                <p>
+                    I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable
+                    interactive experiences.
+                </p>
+
+                <h3>shehabsarder97@gmail.com <br>01308-xxxxxx</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! footer  -->
+    <footer id="footer">
+        <div class="container footer-flex">
+
+            <div class="left">
+                <div class="nav-logo">
+                    <img src="./svg/logo 1.svg" alt="">
+                    <h2 class="heading SemiBold M">Personal</h2>
+                </div>
+            </div>
+
+            <div class="right">
+                <p>@ 2019-2023 Personal</p>
+                <p>Made In Figma</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
